@@ -3,7 +3,7 @@
 
 # Prompt API - BIN Checker - Node Package
 
-`bin-checker-pkg` is a simple JavaScript wrapper for [bincheck-api][bincheck-api].
+`@promptapi/bin-checker-pkg` is a simple JavaScript wrapper for [bincheck-api][bincheck-api].
 
 ## Requirements
 
@@ -14,7 +14,7 @@
 then;
 
 ```bash
-$ npm install bin-checker-pkg
+$ npm install @promptapi/bin-checker-pkg
 ```
 
 ---
@@ -22,7 +22,7 @@ $ npm install bin-checker-pkg
 ## Example Usage
 
 ```javascript
-const promptapi = require('bin-checker-pkg')
+const promptapi = require('@promptapi/bin-checker-pkg')
 
 promptapi.binChecker('370244').then(result => {
   if(result.error){
