@@ -1,5 +1,5 @@
 {
-  "name": "bin-checker-pkg",
+  "name": "@promptapi/bin-checker-pkg",
   "version": "0.1.0",
   "description": "NPM package for Prompt API's BIN Checker API",
   "main": "binchecker.js",
@@ -22,6 +22,9 @@
     "url": "https://github.com/promptapi/bin-checker-pkg/issues"
   },
   "homepage": "https://github.com/promptapi/bin-checker-pkg#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "axios": "^0.20.0"
   }
