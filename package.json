@@ -1,0 +1,28 @@
+{
+  "name": "bin-checker-pkg",
+  "version": "0.0.0",
+  "description": "NPM package for Prompt API's BIN Checker API",
+  "main": "binchecker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/promptapi/bin-checker-pkg.git"
+  },
+  "keywords": [
+    "promptapi",
+    "api-wrapper",
+    "bin-number",
+    "credit-card"
+  ],
+  "author": "Prompt API <hello@promptapi.com> (https://promptapi.com/marketplace/docs/bincheck-api)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/promptapi/bin-checker-pkg/issues"
+  },
+  "homepage": "https://github.com/promptapi/bin-checker-pkg#readme",
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
+}
