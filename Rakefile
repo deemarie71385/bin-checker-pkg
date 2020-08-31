@@ -37,8 +37,21 @@ task :bump, [:revision] do |_, args|
   system "bumpversion #{args.revision}"
 end
 
-desc "Publish package"
-task :publish do
-  system "npm publish"
+namespace :publish do
+  desc "Publish package to NPM"
+  task :npm do
+    system %{
+      npm login &&
+      npm publish
+    }
+  end
+
+  desc "Publish package to GitHub"
+  task :github do
+    system %{
+      npm login --registry=https://npm.pkg.github.com --scope=promptapi &&
+      npm publish
+    }
+  end
 end
 # -----------------------------------------------------------------------------
