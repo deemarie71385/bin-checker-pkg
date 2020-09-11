@@ -20,7 +20,7 @@ $ npm install @promptapi/bin-checker-pkg
 or, install from GitHub registry;
 
 ```bash
-$ npm install @promptapi/bin-checker-pkg@0.1.2
+$ npm install @promptapi/bin-checker-pkg@0.1.3
 ```
 
 ---
