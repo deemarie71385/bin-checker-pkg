@@ -8,7 +8,7 @@
 ## Requirements
 
 1. You need to signup for [Prompt API][promptapi-signup]
-1. You need to subscribe [name-of-api][prompt-api-url-of-api], test drive is **free!!!**
+1. You need to subscribe [bincheck-api][bincheck-api], test drive is **free!!!**
 1. You need to set `PROMPTAPI_TOKEN` environment variable after subscription.
 
 then;
