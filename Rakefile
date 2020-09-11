@@ -41,7 +41,7 @@ namespace :publish do
   desc "Publish package to NPM"
   task :npm do
     system %{
-      npm login &&
+      npmrc default &&
       npm publish
     }
   end
@@ -49,7 +49,7 @@ namespace :publish do
   desc "Publish package to GitHub"
   task :github do
     system %{
-      npm login --registry=https://npm.pkg.github.com --scope=promptapi &&
+      npmrc github &&
       npm publish
     }
   end
