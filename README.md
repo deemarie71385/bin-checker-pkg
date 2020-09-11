@@ -1,5 +1,5 @@
 ![Node](https://img.shields.io/badge/node-10.10.0-green.svg)
-![Version](https://img.shields.io/badge/version-0.1.1-orange.svg)
+![Version](https://img.shields.io/badge/version-0.1.2-orange.svg)
 
 # Prompt API - BIN Checker - Node Package
 
