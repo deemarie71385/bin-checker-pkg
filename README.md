@@ -1,5 +1,5 @@
 ![Node](https://img.shields.io/badge/node-10.10.0-green.svg)
-![Version](https://img.shields.io/badge/version-0.1.2-orange.svg)
+[![npm version](https://badge.fury.io/js/%40promptapi%2Fbin-checker-pkg.svg)](https://badge.fury.io/js/%40promptapi%2Fbin-checker-pkg)
 
 # Prompt API - BIN Checker - Node Package
 
@@ -15,6 +15,12 @@ then;
 
 ```bash
 $ npm install @promptapi/bin-checker-pkg
+```
+
+or, install from GitHub registry;
+
+```bash
+$ npm install @promptapi/bin-checker-pkg@0.1.2
 ```
 
 ---
